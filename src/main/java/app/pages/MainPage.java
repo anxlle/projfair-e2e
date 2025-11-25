@@ -27,8 +27,8 @@ public class MainPage extends BasePage {
                 confirm();
                 prompt(prompt); // api key в таблице supervisors
             } else {
-                confirm();
                 dismiss();
+                confirm();
                 prompt(prompt); // api key в таблице candidates
             }
         } else {
